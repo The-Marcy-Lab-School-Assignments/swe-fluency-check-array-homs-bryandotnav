@@ -37,7 +37,7 @@ console.log(getEvenNumbers(sampleNumbers));
 
 // Problem 5
 const getLargestNumber = (numbers) => {
-
+ 
 };
 
 /* -------------------------------------------------- */
@@ -54,9 +54,10 @@ const sampleUsers = [
 
 // Problem 6
 const printUserNamesAndScores = (users) => {
-
+  return users.forEach((user)=>
+  console.log(`${user.name} scored ${user.score} points.`))
 };
-
+printUserNamesAndScores(sampleUsers);
 
 // Problem 7
 const getUserNames = (users) => {
