@@ -31,8 +31,9 @@ const sampleNumbers = [7, 3, 9, 1, 4, 8, 2, 10, 5, 6];
 
 // Problem 4
 const getEvenNumbers = (nums) => {
-
+  return nums.filter((even)=>even % 2 === 0)
 };
+console.log(getEvenNumbers(sampleNumbers));
 
 // Problem 5
 const getLargestNumber = (numbers) => {
