@@ -10,9 +10,10 @@ const sampleWords = ['dog', 'blueberry', 'alabama', 'earth', 'football'];
 
 // Problem 1
 const printEveryWord = (words) => {
-
+  return words.forEach((word)=>
+  console.log(word))
 };
-
+printEveryWord(sampleWords);
 // Problem 2
 const getStringLengths = (strings) => {
 
@@ -69,13 +70,12 @@ console.log(getUserNames(sampleUsers));
 
 // Problem 8
 const getActiveUsersUnder30 = (users) => {
-
 };
 
 
 // Problem 9
 const getTotalScore = (users) => {
-
+  return users.reduce
 };
 
 // Problem 10
