@@ -5,7 +5,7 @@
 /* -------------------------------------------- */
 /* --------------STRING PROBLEMS--------------- */
 /* -------------------------------------------- */
-
+//joined late sorry!
 const sampleWords = ['dog', 'blueberry', 'alabama', 'earth', 'football'];
 
 // Problem 1
@@ -23,7 +23,7 @@ const getStringLengths = (strings) => {
 console.log(getStringLengths(sampleWords));
 // Problem 3
 const sortWordsZtoA = (words) => {
-
+//use .sort() to sort words descending order
 };
 
 /* -------------------------------------------- */
@@ -40,7 +40,7 @@ console.log(getEvenNumbers(sampleNumbers));
 
 // Problem 5
 const getLargestNumber = (numbers) => {
- 
+ //use .reduce()?
 };
 
 /* -------------------------------------------------- */
@@ -73,7 +73,7 @@ console.log(getUserNames(sampleUsers));
 // Problem 8
 const getActiveUsersUnder30 = (users) => {
 };
-
+//use .map() I believe
 
 // Problem 9
 const getTotalScore = (users) => {
@@ -82,5 +82,5 @@ const getTotalScore = (users) => {
 
 // Problem 10
 const sortUsersByScoreDescending = (users) => {
-
+//use .sort()
 };
